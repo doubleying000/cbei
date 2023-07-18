@@ -1,3 +1,14 @@
 # cbei
 code for running cbei
-link to open cbei Github(http://github.com/atlasbioinfo/CRISPR-CBEI/blob/master/autocbei/README.md)
+link to open cbei Github(http://github.com/atlasbioinfo/CRISPR-CBEI/blob/master/autocbei/README.md) #打开文章中CBEi给出的代码github
+#使用windows终端，windows+run+cmd登录华为云ssh 124.71.38.46 -l linyingying；、
+#windows需要wxl安装linux，搭建python环境
+#进入linux环境后，安装autocbei >pip install autocbei
+
+#检查当下python版本 python -v
+#直接输入python进入python环境，quit()回到linux
+#linux命令查询Demo CDS file使用pip安装的autocbei路径，find ./* -name Bacillus_subtilis.part500.cds.all.fa 回车
+#输出路径：./anaconda3/lib/python3.9/site-packages/autocbei/Bacillus_subtilis.part500.cds.all.fa
+#输入 autocbei ~/anaconda3/lib/python3.9/site-packages/autocbei/Bacillus_subtilis.part500.cds.all.fa
+#显示Input file: /home/linyingying/anaconda3/lib/python3.9/site-packages/autocbei/Bacillus_subtilis.part500.cds.all.fa
+Output directory: CBEIRaw
